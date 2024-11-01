@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body {
+    background-image: url("https://www.quantamagazine.org/wp-content/uploads/2020/03/RockPaperScissor-2880x1620_Lede.jpg");
+
+}
+
+h1 {
+    height: 5rem;
+    background-color: rgb(22, 20, 20);
+    color: white;
+
+    line-height: 5rem;
+}
+
+.choice:hover {
+    cursor: pointer;
+
+
+
+}
+
+.choice {
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img:hover {
+    height: 170px;
+    width: 170px;
+    transition: 150ms;
+    cursor: pointer;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    gap: 3rem;
+}
+
+.score-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    gap: 5rem;
+    margin-top: 3rem;
+}
+
+#user-score,
+#comp-score {
+    font-size: 4rem;
+}
+
+.msg-container {
+    margin-top: 5rem;
+}
+
+#msg {
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    display: inline;
+    border-radius: 1rem;
+}
+
+.score-board p {
+    color: rgb(222, 216, 216);
+}
+
+/* I have added responsiveness to this game   */
+/* to play this on smaller screens also  */
+@media (max-width: 768px) {
+
+    .choices {
+        display: flex;
+        height: 16rem;
+        gap: 5rem;
+    }
+
+    .choice {
+        height: 2rem;
+        width: 2rem;
+    }
+
+    img {
+        height: 6rem;
+        width: 5rem;
+        /* gap: 12rem; */
+        display: flex;
+        margin: auto;
+    }
+
+    img:hover {
+        height: 10rem;
+        width: 8rem;
+        transition: 140ms;
+
+    }
+
+    h1 {
+        height: 4rem;
+        font-size: x-large;
+        line-height: 4rem;
+    }
+
+    .msg-container {
+        margin-top: 2rem;
+
+    }
+
+    #msg {
+        font-size: larger;
+    }
+
+    .score-board {
+        gap: 6rem;
+        font-size: x-large;
+        margin-top: auto;
+    }
+}
