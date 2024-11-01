@@ -134,6 +134,6 @@ img {
     .score-board {
         gap: 6rem;
         font-size: x-large;
-        margin-top: auto;
+        margin-top: 4rem;
     }
 }
