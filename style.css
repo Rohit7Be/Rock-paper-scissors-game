@@ -85,6 +85,23 @@ img {
 .score-board p {
     color: rgb(222, 216, 216);
 }
+.footer {
+    
+    color: #fff;
+    text-align: center;
+    padding: 8px 10px;
+    display: inline;
+}
+
+.footer p {
+    margin-top: 8rem;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    background-color: rgb(47, 46, 46);
+    padding: 10px;
+    
+}
 
 /* I have added responsiveness to this game   */
 /* to play this on smaller screens also  */
